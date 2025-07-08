@@ -60,11 +60,17 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 
 # keybindings
-# emacs keybings for accepting autosuggestions
-bindkey -e autosuggest-accept
 # search forward and backward in command history (CTRL+P/CTRL+N)
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+# move by word using CTRL+Arrows
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+# delete left/right word using CTRL+Backspace/Delete
+bindkey '^H' backward-kill-word
+bindkey "^[[3;5~" kill-word
+# delete forward chars with Delete
+bindkey "^[[3~" delete-char
 
 # completion styling
 # completion becomes non-case sensitive
