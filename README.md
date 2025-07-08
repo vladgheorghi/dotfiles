@@ -10,6 +10,7 @@ Make sure the following packages are installed for this dotfiles setup to functi
   - `waybar` – highly customizable status bar for Wayland
   - `wlogout` – graphical logout menu for Wayland compositors
   - `wofi` – application launcher (dmenu-like for Wayland)
+  - `mako` - lightweight notification daemon for Wayland
 
 ### Terminal & Shell
   - `kitty` – fast, GPU-based terminal emulator

@@ -27,6 +27,7 @@ allowed_list=(
 	"$REPO/bash/.bashrc,$HOME/.bashrc"
 	"$REPO/gtk-3.0,$HOME/.config/gtk-3.0"
 	"$REPO/dolphin/dolphinrc,$HOME/.config/dolphinrc"
+	"$REPO/mako,$HOME/.config/mako"
 	)
 
 # Delete local path if it already exists and create a
