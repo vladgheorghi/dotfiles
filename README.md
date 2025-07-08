@@ -5,6 +5,8 @@ This is my current public backup of the dotfiles on my Arch Linux setup. Most co
 Make sure the following packages are installed for this dotfiles setup to function correctly:
 ### UI & Compositor
   - `hyprland` – dynamic Wayland compositor
+  - `hyprlock` - GPU accelerated lockscreen for Hyprland
+  - `hypridle` - idle detector and manager for Hyprland
   - `waybar` – highly customizable status bar for Wayland
   - `wlogout` – graphical logout menu for Wayland compositors
   - `wofi` – application launcher (dmenu-like for Wayland)
