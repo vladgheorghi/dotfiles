@@ -25,3 +25,9 @@ Make sure the following packages are installed for this dotfiles setup to functi
   2. Clone the repository.
   3. Install dependencies using `pacman`.
   4. Run `setup-scripts/create-symbolic-links.sh` to link repository files locally.
+
+## Overview
+![ss_2025-07-08_15-01-05](https://github.com/user-attachments/assets/0c84d9c3-90bb-4c4e-bf91-ecddb275dfbd)
+![ss_2025-07-08_15-03-30](https://github.com/user-attachments/assets/19be6317-12f6-40b5-aab4-6b4c4cc33b3e)
+
+
