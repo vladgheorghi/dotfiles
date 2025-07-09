@@ -84,6 +84,9 @@ zstyle ':completion:*' menu no
 # ls colors directories
 alias ls='ls --color'
 
+# if VS Code is blurry enable HiDPI scale
+alias code='ELECTRON_ENABLE_HIGH_DPI_SCALE_FACTOR_OVERRIDE=1 code'
+
 # shell integrations
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

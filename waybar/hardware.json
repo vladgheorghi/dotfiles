@@ -9,9 +9,17 @@
     "on-click": "kitty -e htop"
   },
 
+  "custom/memory-verbose": {
+    "exec": "~/.config/waybar/scripts/show-ram-gib.sh",
+    "interval": 5,
+    "format": " {}",
+    "on-click": "kitty -e htop",
+    "tooltip": false
+  },
+
   "disk": {
     "interval": 30,
-    "format": "D {percentage_used}% ",
+    "format": " {percentage_used}%",
     "path": "/",
     "on-click": "kitty -e htop"
   },
@@ -34,6 +42,6 @@
     // "children-class": "not-memory",
     // "transition-left-to-right": false
     //},
-    "modules": ["cpu", "memory", "disc", "temperature"]
+    "modules": ["cpu", "custom/memory-verbose", "disk", "temperature"]
   }
 }

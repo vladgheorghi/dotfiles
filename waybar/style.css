@@ -180,6 +180,7 @@ window#waybar.empty #window {
 
 #cpu,
 #memory,
+#custom-memory-verbose,
 #disk {
   padding-right: 0.5rem;
 }
