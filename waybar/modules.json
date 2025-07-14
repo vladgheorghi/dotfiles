@@ -32,7 +32,7 @@
   "custom/appmenu": {
     "format": "󰣇",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings",
-    "on-click": "rofi -show drun -replace & sleep 0.2; hyprctl dispatch focuswindow '^(Rofi)'",
+    "on-click": "wofi --show drun -I",
     //"on-click-right": "~/.config/notscripter/scripts/keybindings.sh",
     "tooltip": false
   },
