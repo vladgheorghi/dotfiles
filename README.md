@@ -11,6 +11,7 @@ Make sure the following packages are installed for this dotfiles setup to functi
   - `wlogout` – graphical logout menu for Wayland compositors
   - `wofi` – application launcher (dmenu-like for Wayland)
   - `mako` - lightweight notification daemon for Wayland
+  - `nvim` - powerful editor with lua configs and plugins
 
 ### Terminal & Shell
   - `kitty` – fast, GPU-based terminal emulator
