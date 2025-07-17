@@ -84,10 +84,16 @@ zstyle ':completion:*' menu no
 # ls colors directories
 alias ls='ls --color'
 
-# if VS Code is blurry enable HiDPI scale
-alias code='ELECTRON_ENABLE_HIGH_DPI_SCALE_FACTOR_OVERRIDE=1 code'
+# if spotify is blurry
+alias spotify='spotify --ozone-platform=wayland'
+
+# if VS Code is blurry
+alias code='code --ozone-platform=wayland'
 
 # shell integrations
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Environment Variables
+export EDITOR=nvim
