@@ -1,6 +1,26 @@
+MenuBar=Disabled
+
+[CompactMode]
+IconSize=48
+PreviewSize=80
+UseSystemFont=false
+ViewFont=Adwaita Sans,9,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
+
+[DetailsMode]
+LeftPadding=0
+PreviewSize=64
+UseSystemFont=false
+ViewFont=Adwaita Sans,9,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
+
 [General]
 Version=202
 ViewPropsTimestamp=2025,7,5,17,2,49.044
+
+[IconsMode]
+IconSize=80
+PreviewSize=96
+UseSystemFont=false
+ViewFont=Adwaita Sans,9,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -8,3 +28,6 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,gdk-pixbuf-thumbnailer
