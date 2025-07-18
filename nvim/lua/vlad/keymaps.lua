@@ -24,3 +24,7 @@ map("n", "<C-h>", "<C-w><")
 map("n", "<C-l>", "<C-w>>")
 map("n", "<C-j>", "<C-w>+")
 map("n", "<C-k>", "<C-w>-")
+
+-- Send yanks to clipboard
+vim.keymap.set("v", "y", '"+y', { noremap = true, silent = true, desc = "Yank to system clipboard (visual mode)" })
+vim.keymap.set("n", "y", '"+y', { noremap = true, silent = true, desc = "Yank to system clipboard (normal mode)" })
