@@ -90,6 +90,9 @@ alias spotify='spotify --ozone-platform=wayland'
 # if VS Code is blurry
 alias code='code --ozone-platform=wayland'
 
+# alias for Figma
+alias figma='figma-linux'
+
 # shell integrations
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
