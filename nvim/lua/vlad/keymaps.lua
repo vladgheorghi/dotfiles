@@ -4,6 +4,11 @@ local function map(mode, lhs, rhs)
     vim.keymap.set(mode, lhs, rhs, { noremap = true, silent = true })
 end
 
+-- <leader> = Spacebar
+
+-- Create new file by prompting name
+map('n', '<leader>n', ':enew<CR>')
+
 -- Save
 map("n", "<leader>w", "<CMD>update<CR>")
 
@@ -12,6 +17,8 @@ map("n", "<leader>q", "<CMD>q<CR>")
 
 -- Enter explorer mode
 map("n", "<leader>pv", vim.cmd.Ex)
+-- '<leader>pf' [P]roject [F]iles
+-- '<leader>ps' [P]roject [S]earch
 
 -- Window Navigation
 map("n", "<C-Left>", "<C-w>h")
